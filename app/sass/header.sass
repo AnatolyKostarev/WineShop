@@ -1,0 +1,40 @@
+@import 'variables.sass'
+header
+    margin-top: 12px
+  
+.header
+    &Nav
+        width: 1173px
+        margin: 0 auto
+    &Block
+        display: flex
+        justify-content: space-around
+        align-items: center
+    &Title
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 12px
+            style: normal
+            weight: 400
+        line-height: 18px
+        letter-spacing: 0em
+        text-align: left
+    &Login
+        @extend .headerTitle
+    &Reg
+         @extend .headerTitle
+    &List
+        @extend .headerTitle
+    &Search
+        width: 24px
+        height: 24px
+    &Bag
+        @extend .headerSearch
+    &ImgLogo
+        text-align: center
+
+        
+        
+        
+

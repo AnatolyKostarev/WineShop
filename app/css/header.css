@@ -1,0 +1,38 @@
+header {
+  margin-top: 12px
+}
+.headerNav {
+  width: 1173px;
+  margin: 0 auto
+}
+.headerBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+.headerList,
+.headerLogin,
+.headerReg,
+.headerTitle {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-align: left
+}
+.headerBag,
+.headerSearch {
+  width: 24px;
+  height: 24px
+}
+.headerImgLogo {
+  text-align: center
+}
