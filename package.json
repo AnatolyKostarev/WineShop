@@ -1,0 +1,33 @@
+{
+  "name": "winemarket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnatolyKostarev/WineShop.git"
+  },
+  "author": "Anatoly Kostarev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnatolyKostarev/WineShop/issues"
+  },
+  "homepage": "https://github.com/AnatolyKostarev/WineShop#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.5.1"
+  }
+}
