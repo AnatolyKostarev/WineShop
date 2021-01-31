@@ -4,9 +4,11 @@ body {
   padding: 0;
   background-color: #000
 }
-h1 {
-  color: #fff;
-  font-family: Poppins,sans-serif;
-  font-weight: 700;
-  text-transform: uppercase
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0
 }
