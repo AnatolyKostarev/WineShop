@@ -1,0 +1,33 @@
+@import 'variables.sass'
+
+.menu
+    &Nav
+        display: flex
+        justify-content: space-between
+        margin: 0
+        padding-left: 0
+        border-top: 1px solid $primary-border-color
+        border-bottom: 1px solid $primary-border-color
+    &Link
+        text-decoration: none
+    &Bar_Item
+        margin-top: 22px
+        margin-bottom: 13px
+        padding-left: 0
+        font:
+            family: $primary-font-family
+            size: 16px
+            style: normal
+            weight: 400
+        line-height: 18px
+        letter-spacing: 0
+        text-align: left
+        color: $primary-text-color
+        list-style-type: none
+        cursor: pointer
+        transition: 0.3s
+        &:hover
+            color: $secondary-text-color
+            cursor: pointer
+            transition: 0.3s
+        
