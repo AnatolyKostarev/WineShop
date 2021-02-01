@@ -1,14 +1,19 @@
 @import 'variables.sass'
 header
-    margin-top: 12px
+    margin:
+        top: 12px
+        bottom: 12px
+
+.container
+    width: 1149px
+    margin: 0 auto
   
 .header
-    &Nav
-        width: 1173px
-        margin: 0 auto
+    &Link
+        text-decoration: none
     &Block
         display: flex
-        justify-content: space-around
+        justify-content: space-between
         align-items: center
     &Title
         color: $primary-text-color
@@ -19,22 +24,132 @@ header
             weight: 400
         line-height: 18px
         letter-spacing: 0em
-        text-align: left
+        text:
+            align: left
+            decoration: none
+        transition: 0.5s
+        &:hover
+            color: $secondary-text-color
+            transition: 0.5s
     &Login
-        @extend .headerTitle
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 12px
+            style: normal
+            weight: 400
+        line-height: 18px
+        letter-spacing: 0em
+        text:
+            align: left
+            decoration: none
+        transition: 0.5s
+        &:hover
+            color: $secondary-text-color
+            transition: 0.5s
     &Reg
-         @extend .headerTitle
+         @extend .headerLogin
     &List
-        @extend .headerTitle
+        @extend .headerLogin
     &Search
         width: 24px
         height: 24px
     &Bag
         @extend .headerSearch
+    &Frame
+        @extend .headerSearch
     &ImgLogo
         text-align: center
 
-        
-        
-        
+// НАЧАЛО БЛОКА МЕДИАЗАПРОСОВ
 
+@media screen and (min-width: 1920px) and (max-width: 2560px)
+    header
+        display: block
+
+@media screen and (min-width: 1440px) and (max-width: 1919.98px)
+    header
+        display: block
+
+@media screen and (min-width: 1200px) and (max-width: 1439.98px)
+    header
+        display: block
+
+@media screen and (min-width: 1024px) and (max-width: 1199.98px)
+    header
+        display: block
+
+@media screen and (min-width: 992px) and (max-width: 1023.98px)
+    header
+        display: block
+
+@media screen and (min-width: 768px) and (max-width: 991.98px)
+    .header
+        &Block
+            justify-content: space-around
+        &Title
+            display: none
+        &ImgLogo
+            text-align: center
+            margin-bottom: 18px
+
+@media screen and (min-width: 576px) and (max-width: 767.98px)
+    .header
+        &Block
+            justify-content: space-around
+        &Title
+            display: none
+        &ImgLogo
+            text-align: center
+            margin-bottom: 18px
+
+@media screen and (min-width: 425px) and (max-width: 575.98px)
+    .header
+        &Block
+            justify-content: space-around
+        &Title
+            display: none
+        &ImgLogo
+            text-align: center
+            margin-bottom: 18px
+        &ImgLogo img
+            width: 264px
+        &Login
+            font-size: 30px
+        &Search
+            width: 36px
+            height: 36px
+
+@media screen and (min-width: 375px) and (max-width: 424.98px)
+    .header
+        &Block
+            justify-content: space-around
+        &Title
+            display: none
+        &ImgLogo
+            text-align: center
+            margin-bottom: 18px
+        &ImgLogo img
+            width: 264px
+        &Login
+            font-size: 30px
+        &Search
+            width: 38px
+            height: 38px
+
+@media screen and (min-width: 320px) and (max-width: 374.98px)
+    .header
+        &Block
+            justify-content: space-around
+        &Title
+            display: none
+        &ImgLogo
+            text-align: center
+            margin-bottom: 18px
+        &ImgLogo img
+            width: 264px
+        &Login
+            font-size: 30px
+        &Search
+            width: 38px
+            height: 38px
