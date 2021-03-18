@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/newProducts.css">
 </head>
 <body>
     <header>
@@ -88,6 +90,54 @@
             <!-- /.container -->
         </section>
         <!-- /.aboutUs -->
+
+        <section class="newProducts">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5 col-lg-6">
+                        <p class="newProducts_preTitle">New Wines</p>
+                        <h1 class="newProducts_Title">Merlot</h1>
+                        <h3 class="newProducts_Subtitle">Winehouse Vineyard</h3>
+                        <p class="newProducts_Description">Merlot is loved for its boisterous black cherry flavors, supple
+                            tannins, and chocolatey finish. On the high end, it’s often
+                            mistaken with Cabernet Sauvignon.</p>
+                        <button class="newProducts_btnLearnMore" value="Learn More">Learn More</button>
+                        <button class="newProducts_btnViewMore" value="View More">View More</button>
+                    </div>
+                    <!-- /.col-6 -->
+                    <div class="col-md-7 col-lg-6">
+                        <div class="newProducts_slider">
+                            <!-- <div class="newProducts_decorationRing"></div> -->
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/src/newProducts/MERLOT-IGT-TREVENEZIE-BOTTEGA 1bottega.jpg" alt="Bottega"></div>
+                                    <!-- /.swiper-slide -->
+                                    <div class="swiper-slide"><img src="img/src/newProducts/CHATEAU-BELLEVUE-2006_.jpg" alt="CHATEAU-BELLEVUE-2006"></div>
+                                    <!-- /.swiper-slide -->
+                                    <div class="swiper-slide"><img src="img/src/newProducts/CHATEAU-BELLEVUE-2007_.jpg" alt="CHATEAU-BELLEVUE-2007"></div>
+                                    <!-- /.swiper-slide -->
+                                    <div class="swiper-slide"><img src="img/src/newProducts/CHATEAU-DU-TERTRE.jpg" alt="CHATEAU-DU-TERTRE"></div>
+                                    <!-- /.swiper-slide -->
+                                    <div class="swiper-slide"><img src="img/src/newProducts/CHATEAU-MOUTON-ROTHSCHILD-2002.jpg" alt="CHATEAU-MOUTON-ROTHSCHILD-2002"></div>
+                                    <!-- /.swiper-slide -->
+                                </div>
+                                <!-- /.swiper-wrapper -->
+                                <div class="swiper-button-next"></div>
+                                <!-- /.swiper-button-next -->
+                                <div class="swiper-button-prev"></div>
+                                <!-- /.swiper-button-prev -->
+                            </div>
+                            <!-- /.swiper-container -->
+                        </div>
+                        <!-- /.col-6 -->
+                        </div>
+                        <!-- /.newProducts_slider -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.newProducts -->
     </main>
     
 
@@ -96,5 +146,7 @@
 
 
     <script src="js/app.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/initSlider.js"></script>
 </body>
 </html>
