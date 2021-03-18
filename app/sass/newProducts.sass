@@ -1,0 +1,178 @@
+@import 'variables.sass'
+
+.newProducts
+    position: relative
+    background-color: #fff
+    color: $secondary-background
+    padding:
+        top: 143px
+        bottom: 138px
+
+    &_preTitle
+        margin:
+            top: 0
+            bottom: 47px
+        font:
+            family: $secondary-font-family
+            size: 20px
+            style: normal
+            weight: 400
+        line-height: 34px
+        letter-spacing: 0.35em
+        text-align: left
+    
+    &_Title
+        margin-bottom: 12px
+        color: $secondary-text-color
+        font:
+            family: $primary-font-family
+            size: 74px
+            style: normal
+            weight: 400
+        line-height: 43px
+        letter-spacing: 0em
+        text-align: left
+
+    &_Subtitle
+        margin-bottom: 52px
+        font-family: $secondary-font-family
+        font:
+            size: 36px
+            style: normal
+            weight: 400
+        line-height: 61px
+        letter-spacing: 0em
+        text-align: left
+
+    &_Description
+        margin-bottom: 64px
+        font:
+            family: $secondary-font-family
+            size: 18px
+            style: normal
+            weight: 300
+        line-height: 36px
+        letter-spacing: 0em
+        text-align: left
+
+    &_btnLearnMore
+        margin-right: 30px
+        padding: 22px 48px
+        outline: none
+        border: none
+        cursor: pointer
+        background: $secondary-btn-color
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 500
+        line-height: 24px
+        letter-spacing: 0em
+        text-align: left
+        transition: 0.3s
+        &:hover
+            background: darken($secondary-btn-color, 5%)
+            transition: 0.3s
+        &:focus
+            background: darken($secondary-btn-color, 10%)
+            outline: none
+
+    &_btnViewMore
+        margin:
+            left: 31px
+            right: -30px
+        padding: 21px 47px
+        outline: none
+        border: 1px solid $secondary-btn-color
+        cursor: pointer
+        background: transparent
+        color: $secondary-background
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 500
+        line-height: 24px
+        letter-spacing: 0em
+        text-align: left
+        transition: 0.3s
+        &:hover
+            background: darken($primary-text-color, 5%)
+            transition: 0.3s
+        &:focus
+            background: darken($primary-text-color, 10%)
+            outline: none
+
+    &_slider
+        position: relative
+        &:before, 
+        &:after
+            position: absolute
+            content: ''
+            display: block
+            width: 542px
+            height: 206px
+            
+        &:before
+            top: 108px
+            left: 0
+            border:
+                top: 10px solid $secondary-text-color
+                right: 10px solid $secondary-text-color
+                left: 10px solid $secondary-text-color
+        &:after
+            bottom: 108px
+            left: 0
+            border:
+                bottom: 10px solid $secondary-text-color
+                right: 10px solid $secondary-text-color
+                left: 10px solid $secondary-text-color
+
+    // &_decorationRing
+    //     position: absolute
+    //     content: ''
+    //     display: block
+    //     background: $secondary-btn-color
+    //     border-radius: 50%
+    //     top: 160px
+    //     left: 94px
+    //     width: 374px
+    //     height: 374px
+
+.swiper-container
+    width: 210px
+    padding: 0 176px
+
+.swiper-button-next:after
+    content: 'Next'
+    color: $secondary-background
+    text-decoration: underline
+    font:
+        family: $secondary-font-family
+        size: 20px
+        weight: 500
+        style: normal
+    line-height: 30px
+
+.swiper-button-prev:after
+    content: 'Prev'
+    color: $secondary-background
+    text-decoration: underline
+    font:
+        family: $secondary-font-family
+        size: 20px
+        weight: 500
+        style: normal
+    line-height: 30px
+
+
+
+
+
+
+
+
+
+
