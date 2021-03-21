@@ -1,0 +1,85 @@
+.futureProducts {
+  background: #000;
+  padding-top: 151px;
+  padding-bottom: 174px
+}
+.futureProductsTitle {
+  margin-bottom: 89px;
+  color: #fff;
+  text-align: center;
+  font-family: ChocolateBox;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px
+}
+.futureProductsColor {
+  color: #e2b024
+}
+.futureProductsList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 417px;
+  margin: 0 auto;
+  padding: 0
+}
+.futureProductsItems {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.futureProductsItems:hover {
+  color: #e2b024;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.futureProductsLi {
+  width: 116px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #fff;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.futureProductsLi:hover {
+  border-bottom: 1px solid #e2b024;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.futureProductsRange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 91px
+}
+.futureProductsImg {
+  max-width: 364px;
+  max-height: 364px
+}
+.lastLi {
+  width: 70px
+}
