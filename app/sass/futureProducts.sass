@@ -4,7 +4,7 @@
     background: #000
     padding: 
         top: 151px
-        bottom: 174px
+        bottom: 90px
 
     &Title
         margin-bottom: 89px
@@ -61,14 +61,85 @@
         flex-direction: row
         flex-wrap: wrap
         justify-content: space-between
-        margin-top: 91px
+        margin:
+            top: 91px
+            left: 164px
+            right: 164px
+
+    &Img_1,
+    &Img_2,
+    &Img_3,
+    &Img_4,
+    &Img_5,
+    &Img_6,
+    &Img_7,
+    &Img_8,
+        @include futureProductsCard()
+
+    &Img_1::before
+        @include futureProductsCardBefore()
+        content: '30% off'
+    &Img_2::before
+        content: '45% off'
+        @extend .futureProductsImg_1::before
+    &Img_3::before
+        content: '20% off'
+        @extend .futureProductsImg_1::before
+    &Img_4::before
+        content: '35% off'
+        @extend .futureProductsImg_1::before
+    &Img_5::before
+        content: '40% off'
+        @extend .futureProductsImg_1::before
+    &Img_6::before
+        content: 'New'
+        padding: 9px 24px
+        @extend .futureProductsImg_1::before
+    &Img_7::before
+        content: '30% off'
+        @extend .futureProductsImg_1::before
+    &Img_8::before
+        content: 'New'
+        padding: 9px 24px
+        @extend .futureProductsImg_1::before
+
+    &Name
+        margin-top: 18px
+        font:
+            family: $primary-font-family
+            size: 24px
+            style: normal
+            weight: 400
+        line-height: 14px
+        text-align: center
+        color: $primary-text-color
     
-    &Img
-        max-width: 364px
-        max-height: 364px
+    &Price
+        margin-top: 16px
+        color: $secondary-text-color
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 400
+        line-height: 36px
+        letter-spacing: 0em
+        text-align: center
+
+    &OldPrice
+        color: $secondary-text-color
+        text-decoration-line: line-through
+        font:
+            family: $secondary-font-family
+            size: 16px
+            style: normal
+            weight: 300
+        line-height: 24px
+        text-align: left
 
 .lastLi
     width: 70px
+
 
     
         

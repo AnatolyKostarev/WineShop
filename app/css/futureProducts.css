@@ -1,7 +1,7 @@
 .futureProducts {
   background: #000;
   padding-top: 151px;
-  padding-bottom: 174px
+  padding-bottom: 90px
 }
 .futureProductsTitle {
   margin-bottom: 89px;
@@ -74,11 +74,108 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 91px
+  margin-top: 91px;
+  margin-left: 164px;
+  margin-right: 164px
 }
-.futureProductsImg {
-  max-width: 364px;
-  max-height: 364px
+.futureProductsImg_1,
+.futureProductsImg_2,
+.futureProductsImg_3,
+.futureProductsImg_4,
+.futureProductsImg_5,
+.futureProductsImg_6,
+.futureProductsImg_7,
+.futureProductsImg_8 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 259px;
+  height: 446px;
+  margin: 0 auto 68px
+}
+.futureProductsImg_1::before,
+.futureProductsImg_2::before,
+.futureProductsImg_3::before,
+.futureProductsImg_4::before,
+.futureProductsImg_5::before,
+.futureProductsImg_6::before,
+.futureProductsImg_7::before,
+.futureProductsImg_8::before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  padding: 9px 14px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  background: #e2b024;
+  border: 1px solid #e2b024;
+  content: '30% off'
+}
+.futureProductsImg_2::before {
+  content: '45% off'
+}
+.futureProductsImg_3::before {
+  content: '20% off'
+}
+.futureProductsImg_4::before {
+  content: '35% off'
+}
+.futureProductsImg_5::before {
+  content: '40% off'
+}
+.futureProductsImg_6::before {
+  content: 'New';
+  padding: 9px 24px
+}
+.futureProductsImg_7::before {
+  content: '30% off'
+}
+.futureProductsImg_8::before {
+  content: 'New';
+  padding: 9px 24px
+}
+.futureProductsName {
+  margin-top: 18px;
+  font-family: ChocolateBox;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  color: #fff
+}
+.futureProductsPrice {
+  margin-top: 16px;
+  color: #e2b024;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: center
+}
+.futureProductsOldPrice {
+  color: #e2b024;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left
 }
 .lastLi {
   width: 70px
