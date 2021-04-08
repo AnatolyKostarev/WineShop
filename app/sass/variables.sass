@@ -7,3 +7,31 @@ $secondary-btn-color: rgba(226, 176, 36, 1)
 $text-bnt-color: rgba(31, 31, 31, 1)
 $primary-font-family: 'ChocolateBox'
 $secondary-font-family: 'Poppins'
+$counter: (1, 2, 3, 4, 5, 6, 7, 8)
+
+// Миксин для блока futureProducts - карточка товара
+
+@mixin futureProductsCard()
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 259px
+    height: 446px
+    margin: 0 auto 68px
+
+@mixin futureProductsCardBefore()
+    position: absolute
+    top: 10px
+    left: 0
+    padding: 9px 14px
+    font:
+        family: $secondary-font-family
+        size: 14px
+        weight: 400
+        style: normal
+    text-align: center
+    background: $secondary-btn-color
+    border: 1px solid $secondary-btn-color
+    
+    
