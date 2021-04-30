@@ -1,0 +1,54 @@
+.offer {
+  margin: 0;
+  padding: 100px 0 100px 0
+}
+.offerTitle {
+  margin-bottom: 80px;
+  font-family: ChocolateBox;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff
+}
+.offerColor {
+  color: #e2b024
+}
+.offer_img {
+  margin: 0 auto;
+  border: 5px solid #e2b024
+}
+.offer_pic {
+  position: relative
+}
+.offer_wine_plant {
+  position: absolute;
+  left: 80px;
+  bottom: 65px;
+  font-family: ChocolateBox;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff
+}
+.offer_price {
+  position: absolute;
+  left: 80px;
+  bottom: 10px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff
+}
+.slick-dots {
+  margin: 0 0 -40px 0
+}
