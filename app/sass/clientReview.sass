@@ -1,0 +1,79 @@
+@import 'variables.sass'
+    
+.clientReview
+    position: relative
+    background: url('/img/src/clientReview/wineglasses.jpg') center no-repeat
+    background-size: cover
+    padding: 154px 0 100px 0
+    z-index: 99
+
+    &::after
+        position: absolute
+        content: ''
+        display: block
+        top: 0
+        bottom: 0
+        left: 0
+        width: 100%
+        background-size: cover
+        background: rgba(0, 0, 0, 0.8)
+        z-index: -1
+    &_pic
+        margin-bottom: 19px
+
+    
+    &Title
+        margin-bottom: 58px
+        font:
+            family: $primary-font-family
+            size: 48px
+            style: normal
+            weight: 400
+        line-height: 28px
+        letter-spacing: 0em
+        text-align: center
+        color: $primary-text-color
+    
+    &Color
+         color: $secondary-text-color
+    
+    &_name
+        margin: 53px 0 31px 0
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 700
+        line-height: 42px
+        letter-spacing: 0em
+        text-align: center
+        color: $primary-text-color
+    &_feedback
+        display: block
+        width: 1062px
+        margin: 0 auto
+        font:
+            family: $secondary-font-family
+            size: 16px
+            style: normal
+            weight: 400
+        line-height: 28px
+        letter-spacing: 0em
+        text-align: center
+        color: $primary-text-color
+    &_img
+        margin: 0 auto
+        border: 5px solid $primary-text-color
+        border-radius: 50%
+
+.slick-dots li.slick-active button:before 
+    color: $secondary-text-color
+    opacity: 1
+    
+
+.slick-dots li button:before
+    color: $primary-text-color
+    opacity: 1
+   
+
+
