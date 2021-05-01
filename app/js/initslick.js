@@ -15,10 +15,11 @@ $(document).ready(function(){
   $('.offer_slider').slick({
     arrows: false,
     dots: true,
+    pauseOnDotsHover: true,
     infinite: true,
     speed: 1000,
+    autoplay: true,
     focusOnSelect: true,
-    draggable: true,
     slidesToShow: 3,
     slidesToScroll: 1
   });
