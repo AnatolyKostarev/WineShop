@@ -62,8 +62,8 @@
 .featuredEvents_arrow {
   position: absolute;
   top: 0;
-  width: 62px;
-  height: 62px;
+  width: 60px;
+  height: 60px;
   z-index: 3;
   cursor: pointer
 }
@@ -78,25 +78,28 @@
   transition: .5s
 }
 .featuredEvents_slider-arrow_left:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s
 }
 .featuredEvents_slider-arrow_right {
   background: url(../img/src/featuredEvents/Right_arrow.png) center no-repeat;
   right: -130px;
   top: 173px;
   border: 2px solid #e2b024;
-  border-radius: 50%
+  border-radius: 50%;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s
 }
 .featuredEvents_slider-arrow_right:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s
 }
