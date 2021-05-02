@@ -1,0 +1,195 @@
+.contactUs {
+  padding: 50px 0
+}
+.contactUsTitle {
+  margin-bottom: 101px;
+  color: #fff;
+  font-family: ChocolateBox;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center
+}
+.contactUsColor {
+  color: #e2b024
+}
+.contactUs_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0
+}
+.contactUs_info a {
+  text-decoration: none
+}
+.contactUs_text {
+  margin-bottom: 77px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 37px;
+  text-align: left
+}
+.contactUs_address,
+.contactUs_call,
+.contactUs_email {
+  position: relative;
+  margin-bottom: 42px;
+  padding-left: 49px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 31px;
+  text-align: left;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.contactUs_call:hover,
+.contactUs_email:hover {
+  color: #e2b024;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.contactUs_call::after {
+  position: absolute;
+  content: url(../img/src/contactUs/Call.png);
+  top: 4px;
+  left: 0;
+  width: 19px;
+  height: 19px
+}
+.contactUs_email::after {
+  position: absolute;
+  content: url(../img/src/contactUs/Message.png);
+  top: 4px;
+  left: 0;
+  width: 19px;
+  height: 19px
+}
+.contactUs_address::after {
+  position: absolute;
+  content: url(../img/src/contactUs/Location.png);
+  top: 4px;
+  left: 0;
+  width: 19px;
+  height: 19px
+}
+.contactUs_social {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start
+}
+.contactUs_item {
+  margin-right: 56px
+}
+.contactUs_send {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  margin-left: 9px
+}
+.contactUs_emailF,
+.contactUs_name,
+.contactUs_phone {
+  margin-bottom: 29px;
+  height: 60px;
+  background: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left
+}
+.contactUs_message {
+  margin-bottom: 39px;
+  padding-top: 15px;
+  background: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left
+}
+.contactUs_emailF:focus,
+.contactUs_name:focus,
+.contactUs_phone:focus {
+  outline: 0
+}
+.contactUs_labelEmail,
+.contactUs_labelMessage,
+.contactUs_labelName,
+.contactUs_labelPhone {
+  position: absolute;
+  top: -18px;
+  left: 41px;
+  color: #fff;
+  background: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  cursor: pointer
+}
+.contactUs_labelEmail {
+  top: 74px
+}
+.contactUs_labelPhone {
+  top: 166px
+}
+.contactUs_labelMessage {
+  top: 260px
+}
+.contactUsBtn {
+  width: 200px;
+  padding: 15px 0;
+  background: #e2b024;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.contactUsBtn:hover {
+  background: #d1a11c;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.contactUsBtn:focus {
+  background: #ba9019;
+  outline: 0
+}

@@ -1,0 +1,178 @@
+@import 'variables.sass'
+    
+.contactUs
+    padding: 50px 0
+
+    &Title
+        margin-bottom: 101px
+        color: $primary-text-color
+        font:
+            family: $primary-font-family
+            size: 48px
+            style: normal
+            weight: 400
+        line-height: 28px
+        text-align: center
+
+    &Color
+        color: $secondary-text-color
+
+    &_info
+        display: flex
+        flex-direction: column
+        padding: 0
+
+    &_info a
+        text-decoration: none
+
+    &_text
+        margin-bottom: 77px
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 18px
+            style: normal
+            weight: 300
+        line-height: 37px
+        text-align: left
+
+    &_call, 
+    &_email,
+    &_address
+        position: relative
+        margin-bottom: 42px
+        padding-left: 49px
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 18px
+            style: normal
+            weight: 300
+        line-height: 31px
+        text-align: left
+        transition: 0.3s
+
+    &_call:hover,
+    &_email:hover
+        color: $secondary-text-color
+        transition: 0.3s 
+
+    &_call::after
+        position: absolute
+        content: url('../img/src/contactUs/Call.png')
+        top: 4px
+        left: 0
+        width: 19px
+        height: 19px
+
+    &_email::after
+        position: absolute
+        content: url('../img/src/contactUs/Message.png')
+        top: 4px
+        left: 0
+        width: 19px
+        height: 19px
+
+    &_address::after
+        position: absolute
+        content: url('../img/src/contactUs/Location.png')
+        top: 4px
+        left: 0
+        width: 19px
+        height: 19px
+
+    &_social
+        margin-top: 60px
+        display: flex
+        justify-content: start
+    
+    &_item
+        margin-right: 56px
+    
+    &_send
+        position: relative
+        display: flex
+        flex-direction: column
+        align-content: start
+        margin-left: 9px
+    
+    &_name
+        margin-bottom: 29px
+        height: 60px
+        background: $base-background
+        border: 1px solid $primary-text-color
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 400
+        line-height: 36px
+        text-align: left
+
+    &_emailF,
+    &_phone
+        @extend .contactUs_name
+
+    &_message
+        margin-bottom: 39px
+        padding-top: 15px
+        background: $base-background
+        border: 1px solid $primary-text-color
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 400
+        text-align: left
+
+    &_name:focus
+        outline: none
+
+    &_labelName
+        position: absolute
+        top: -18px
+        left: 41px
+        color: $primary-text-color
+        background: $base-background
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 400
+        line-height: 36px
+        cursor: pointer
+
+    &_labelEmail
+        @extend .contactUs_labelName
+        top: 74px
+
+    &_labelPhone
+        @extend .contactUs_labelName
+        top: 166px
+
+    &_labelMessage
+        @extend .contactUs_labelName
+        top: 260px
+
+    &Btn
+        width: 200px
+        padding: 15px 0
+        background: $secondary-btn-color
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 500
+        text-align: center
+        outline: none
+        border: 0
+        cursor: pointer
+        transition: 0.3s
+        &:hover
+            background: darken($secondary-btn-color, 5%)
+            transition: 0.3s
+        &:focus
+            background: darken($secondary-btn-color, 10%)
+            outline: none
