@@ -1,6 +1,6 @@
 .offer {
   margin: 0;
-  padding: 100px 0 100px 0
+  padding: 50px 0
 }
 .offerTitle {
   margin-bottom: 80px;
@@ -20,7 +20,14 @@
   margin: 0 12px
 }
 .offer_pic {
-  position: relative
+  position: relative;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.offer_pic:hover {
+  opacity: .6;
+  cursor: pointer
 }
 .offer_wine_plant {
   position: absolute;
