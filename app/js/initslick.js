@@ -24,3 +24,17 @@ $(document).ready(function(){
     slidesToScroll: 1
   });
 });
+
+// инициализация слайдера блока Featured Events
+
+$(document).ready(function(){
+  $('.featuredEvents_slider').slick({
+    arrows: true,
+    prevArrow: '<div class="featuredEvents_arrow featuredEvents_slider-arrow_left"></div>',
+    nextArrow: '<div class="featuredEvents_arrow featuredEvents_slider-arrow_right"></div>',
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 1200,
+    cssEase: 'linear'
+  });
+});
