@@ -1,0 +1,102 @@
+.featuredEvents {
+  padding: 100px 0 120px 0
+}
+.featuredEvents_pic {
+  display: -webkit-box!important;
+  display: -ms-flexbox!important;
+  display: flex!important;
+  height: 410px;
+  padding: 0 1px;
+  background: #18191a
+}
+.featuredEvents_item {
+  padding: 63px 258px 89px 30px
+}
+.featuredEventsTitle {
+  margin-bottom: 58px;
+  color: #fff;
+  font-family: ChocolateBox;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center
+}
+.featuredEventsColor {
+  color: #e2b024
+}
+.featuredEvents_announce {
+  margin-bottom: 8px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left
+}
+.featuredEvents_date {
+  margin-bottom: 44px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left
+}
+.featuredEvents_text {
+  margin-bottom: 45px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: left
+}
+.featuredEvents_read {
+  text-decoration: underline;
+  color: #e2b024
+}
+.featuredEvents_arrow {
+  position: absolute;
+  top: 0;
+  width: 62px;
+  height: 62px;
+  z-index: 3;
+  cursor: pointer
+}
+.featuredEvents_slider-arrow_left {
+  background: url(../img/src/featuredEvents/Left_arrow.png) center no-repeat;
+  left: -130px;
+  top: 173px;
+  border: 2px solid #e2b024;
+  border-radius: 50%;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s
+}
+.featuredEvents_slider-arrow_left:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.featuredEvents_slider-arrow_right {
+  background: url(../img/src/featuredEvents/Right_arrow.png) center no-repeat;
+  right: -130px;
+  top: 173px;
+  border: 2px solid #e2b024;
+  border-radius: 50%
+}
+.featuredEvents_slider-arrow_right:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}

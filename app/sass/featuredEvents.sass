@@ -1,0 +1,96 @@
+@import 'variables.sass'
+
+.featuredEvents
+    padding: 100px 0 120px 0
+
+    &_pic
+        display: flex !important
+        height: 410px
+        padding: 0 1px
+        background: rgba(24, 25, 26, 1)
+
+    
+    &_item
+        padding: 63px 258px 89px 30px
+        
+
+    &Title
+        margin-bottom: 58px
+        color: $primary-text-color
+        font:
+            family: $primary-font-family
+            size: 48px
+            style: normal
+            weight: 400
+        line-height: 28px
+        text-align: center
+    &Color
+        color: $secondary-text-color
+
+    &_announce
+        margin-bottom: 8px
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 24px
+            style: normal
+            weight: 600
+        line-height: 36px
+        text-align: left
+
+    &_date
+        margin-bottom: 44px
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 18px
+            style: normal
+            weight: 400
+        line-height: 27px
+        text-align: left
+
+    &_text
+        margin-bottom: 45px
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 18px
+            style: normal
+            weight: 300
+        line-height: 27px
+        text-align: left
+
+    &_read
+        text-decoration: underline
+        color: $secondary-text-color
+
+    &_arrow
+        position: absolute
+        top: 0
+        width: 62px
+        height: 62px
+        z-index: 3
+        cursor: pointer
+
+    &_slider-arrow_left
+        background: url(../img/src/featuredEvents/Left_arrow.png) center no-repeat
+        left: -130px
+        top: 173px
+        border: 2px solid $secondary-btn-color
+        border-radius: 50%
+        transition: 0.5s
+        &:hover
+            transform: scale(1.05)
+            transition: 0.3s
+
+    &_slider-arrow_right
+        background: url(../img/src/featuredEvents/Right_arrow.png) center no-repeat
+        right: -130px
+        top: 173px
+        border: 2px solid $secondary-btn-color
+        border-radius: 50%
+        &:hover
+            transform: scale(1.05)
+            transition: 0.3s
+
+
