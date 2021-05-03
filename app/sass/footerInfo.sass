@@ -1,0 +1,98 @@
+@import 'variables.sass'
+    
+.info
+    padding: 183px 0 44px 0
+
+    &Link
+        text-decoration: none
+        
+    &Company
+        margin-bottom: 42px
+        font:
+            family: $primary-font-family
+            size: 24px
+            style: normal
+            weight: 400
+        line-height: 14px
+        text-align: left
+        color: $secondary-text-color
+
+        &_link
+            margin-bottom: 15px
+            font:
+                family: $secondary-font-family
+                size: 16px
+                style: normal
+                weight: 400
+            line-height: 24px
+            text-align: left
+            color: $primary-text-color
+            transition: 0.3s
+            &:hover
+                color: $secondary-text-color
+                transition: 0.3s
+
+    &Question,
+    &Useful,
+    &Connect
+        @extend .infoCompany
+
+        &_link
+            @extend .infoCompany_link
+            transition: 0.3s
+            &:hover
+                color: $secondary-text-color
+                transition: 0.3s
+
+    &Connect_social img
+        margin: 0 38px 29px 0
+        width: 24px
+
+    &Connect_phone
+        position: relative
+        padding-left: 28px
+        margin-bottom: 15px
+        font:
+            family: $secondary-font-family
+            size: 16px
+            style: normal
+            weight: 400
+        line-height: 24px
+        text-align: left
+        color: $primary-text-color
+        transition: 0.3s
+        &:hover
+            color: $secondary-text-color
+            transition: 0.3s
+
+    &Connect_email,
+    &Connect_address
+        @extend .infoConnect_phone
+
+    &Connect_phone::after
+        position: absolute
+        left: 0
+        top: 4px
+        content: url('../img/src/infoFooter/Call.png')
+
+    &Connect_email::after
+        content: url('../img/src/infoFooter/Message.png')
+
+    &Connect_address::after
+        content: url('../img/src/infoFooter/Location.png')
+        bottom: 5px
+    
+    &Copyright
+        margin-top: 92px
+        border-top: 1px solid $primary-text-color
+
+    &Title
+        margin-top: 22px
+        color: $primary-text-color
+        font:
+            family: Poppins
+            size: 16px
+            style: normal
+            weight: 300
+        line-height: 27px
+        text-align: center
