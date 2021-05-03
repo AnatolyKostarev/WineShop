@@ -1,0 +1,70 @@
+@import 'variables.sass'
+
+.newsLetter
+    padding: 57px 0 63px 0
+    background: rgba(24, 25, 26, 1)
+
+    &Title
+        margin-bottom: 24px
+        font:
+            family: $primary-font-family
+            size: 48px
+            style: normal
+            weight: 400
+        line-height: 28px
+        text-align: center
+        color: $secondary-text-color
+    
+    &Subtitle
+        margin-bottom: 69px
+        font:
+            family: $secondary-font-family
+            size: 18px
+            style: normal
+            weight: 400
+        line-height: 27px
+        text-align: center
+        color: $primary-text-color
+
+
+    &Subscribe
+        text-align: center
+
+    &_email
+        padding-left: 34px
+        width: 444px
+        height: 61px
+        background: $base-background
+        border: 0
+        color: $primary-text-color
+        font:
+            family: $secondary-font-family
+            size: 18px
+            style: normal
+            weight: 400
+        line-height: 27px
+        text-align: left
+
+    &_email:focus
+        outline: none
+
+    &Btn
+        width: 127px
+        height: 60px
+        background: $secondary-btn-color
+        font:
+            family: $secondary-font-family
+            size: 18px
+            style: normal
+            weight: 400
+        text-align: center
+        outline: none
+        border: 0
+        cursor: pointer
+        transition: 0.3s
+        &:hover
+            background: darken($secondary-btn-color, 5%)
+            transition: 0.3s
+        &:focus
+            background: darken($secondary-btn-color, 10%)
+            outline: none
