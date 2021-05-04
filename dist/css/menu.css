@@ -1,0 +1,40 @@
+.menuNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 0;
+  border-top: 1px solid rgba(255,255,255,.6);
+  border-bottom: 1px solid rgba(255,255,255,.6)
+}
+.menuLink {
+  text-decoration: none
+}
+.menuBar_Item {
+  margin-top: 22px;
+  margin-bottom: 13px;
+  padding-left: 0;
+  font-family: ChocolateBox;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+  list-style-type: none;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.menuBar_Item:hover {
+  color: #e2b024;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}

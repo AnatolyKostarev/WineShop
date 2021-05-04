@@ -1,0 +1,54 @@
+.aboutDescription,
+.aboutSubtitle,
+.aboutTitle {
+  color: #fff
+}
+.aboutSubtitle {
+  margin: 190px 0 19px 0;
+  font-family: ChocolateBox;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: center
+}
+.aboutTitle {
+  height: 81px;
+  font-family: ChocolateBox;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108px;
+  letter-spacing: 0;
+  text-align: center
+}
+.aboutTitle_color {
+  color: #e2b024
+}
+.aboutDescription {
+  display: block;
+  margin: 0 auto;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 744px
+}
+.aboutRead {
+  display: block;
+  margin: 35px 0 39px 0;
+  text-align: center;
+  color: #e2b024
+}
+.aboutImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}

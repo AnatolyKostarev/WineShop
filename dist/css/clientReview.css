@@ -1,0 +1,73 @@
+.clientReview {
+  position: relative;
+  background: url(/img/src/clientReview/wineglasses.jpg) center no-repeat;
+  background-size: cover;
+  padding: 154px 0 100px 0;
+  z-index: 99
+}
+.clientReview::after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  background: rgba(0,0,0,.8);
+  z-index: -1
+}
+.clientReview_pic {
+  margin-bottom: 19px
+}
+.clientReviewTitle {
+  margin-bottom: 58px;
+  font-family: ChocolateBox;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff
+}
+.clientReviewColor {
+  color: #e2b024
+}
+.clientReview_name {
+  margin: 53px 0 31px 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff
+}
+.clientReview_feedback {
+  display: block;
+  width: 1062px;
+  margin: 0 auto;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff
+}
+.clientReview_img {
+  margin: 0 auto;
+  border: 5px solid #fff;
+  border-radius: 50%
+}
+.slick-dots li.slick-active button:before {
+  color: #e2b024;
+  opacity: 1
+}
+.slick-dots li button:before {
+  color: #fff;
+  opacity: 1
+}

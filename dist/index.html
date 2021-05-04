@@ -4,10 +4,504 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="slick/slick/slick.css">
+    <link rel="stylesheet" href="slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/newProducts.css">
+    <link rel="stylesheet" href="css/futureProducts.css">
+    <link rel="stylesheet" href="css/clientReview.css">
+    <link rel="stylesheet" href="css/offer.css">
+    <link rel="stylesheet" href="css/featuredEvents.css">
+    <link rel="stylesheet" href="css/contactUs.css">
+    <link rel="stylesheet" href="css/newsLetter.css">
+    <link rel="stylesheet" href="css/footerInfo.css">
 </head>
 <body>
-    <img src="img/src/USA_Rivers_Grand_1920x1200.jpg" alt="">
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <a class="headerLink" href=""><p class="headerTitle">We Ship Everywhere! Free In The Us!</p></a>
+                </div>
+                <!-- /.col-4 -->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="headerImgLogo">
+                        <img src="img/src/header/logo_header.png" alt="Food and Drinks">
+                    </div>
+                </div>
+                <!-- /.col-4 -->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="headerBlock">
+                        <a class="headerLink" href=""><p class="headerLogin">Login</p></a>
+                        <a class="headerLink" href=""><p class="headerReg">Register</p></a>
+                        <a class="headerLink" href=""><p class="headerList">Wish List (0)</p></a> 
+                        <div class="headerImg">
+                            <a class="headerLink" href=""><img class="headerSearch" src="img/src/header/Search.png" alt="Search"></a>
+                        </div>
+                        <div class="headerImg">
+                            <a class="headerLink" href=""><img class="headerBag" src="img/src/header/Bag 2.png" alt="Bag"></a>
+                        </div>
+                        <div class="headerImg">
+                           <a class="headerLink" href=""><img class="headerFrame" src="img/src/header/Frame.png" alt="Frame"></a> 
+                        </div>
+                    </div>
+                    <!-- /.headerBlock -->
+                </div>
+                <!-- /.col-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </header>
+
+    <main>
+        <section class="menu">
+            <div class="container">
+                <div class="menuBar">
+                    <ul class="menuNav">
+                        <a class="menuLink" href=""><li class="menuBar_Item">Home</li></a>
+                        <a class="menuLink" href=""><li class="menuBar_Item">Vintage</li></a>
+                        <a class="menuLink" href=""><li class="menuBar_Item">Imperial</li></a>
+                        <a class="menuLink" href=""><li class="menuBar_Item">Sparkling</li></a>
+                        <a class="menuLink" href=""><li class="menuBar_Item">Accessories</li></a>
+                        <a class="menuLink" href=""><li class="menuBar_Item">Blog</li></a>
+                        <a class="menuLink" href=""><li class="menuBar_Item">Product Details</li></a>
+                        <a class="menuLink" href=""><li class="menuBar_Item">Contact</li></a>
+                    </ul>
+                </div>
+                <!-- /.menuBar -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.Menu -->
+
+        <section class="aboutUs">
+            <div class="container">
+                <div class="about">
+                    <h3 class="aboutSubtitle">The Experience of Generations</h3>
+                    <h1 class="aboutTitle">In each <span class="aboutTitle_color">bottle</span></h1>
+                    <p class="aboutDescription">Experience a true “American Dream” at Winehouse and visit the first tasting room in the United
+                        States established by a former European mirgant vineyard worker and his family.</p>
+                    <a href="" class="aboutRead">READ MORE</a>
+                    <div class="aboutImg">
+                        <img src="img/src/header/ImageThree_bottles_header.jpg" alt="Bottles">
+                    </div>
+                    <!-- /.aboutImg -->
+                </div>
+                <!-- /.about --> 
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.aboutUs -->
+
+        <section class="newProducts">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5 col-lg-6">
+                        <p class="newProducts_preTitle">New Wines</p>
+                        <h1 class="newProducts_Title">Merlot</h1>
+                        <h3 class="newProducts_Subtitle">Winehouse Vineyard</h3>
+                        <p class="newProducts_Description">Merlot is loved for its boisterous black cherry flavors, supple
+                            tannins, and chocolatey finish. On the high end, it’s often
+                            mistaken with Cabernet Sauvignon.</p>
+                        <button class="newProducts_btnLearnMore" value="Learn More">Learn More</button>
+                        <button class="newProducts_btnViewMore" value="View More">View More</button>
+                    </div>
+                    <!-- /.col-6 -->
+                    <div class="col-md-7 col-lg-6">
+                        <div class="newProducts_slider">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/src/newProducts/MERLOT-IGT-TREVENEZIE-BOTTEGA 1bottega.jpg"  alt="Bottega"></div>
+                                    <!-- /.swiper-slide -->
+                                    <div class="swiper-slide"><img src="img/src/newProducts/CHATEAU-BELLEVUE-2006_.jpg"  alt="CHATEAU-BELLEVUE-2006"></div>
+                                    <!-- /.swiper-slide -->
+                                    <div class="swiper-slide"><img src="img/src/newProducts/CHATEAU-BELLEVUE-2007_.jpg"  alt="CHATEAU-BELLEVUE-2007"></div>
+                                    <!-- /.swiper-slide -->
+                                    <div class="swiper-slide"><img src="img/src/newProducts/CHATEAU-DU-TERTRE.jpg"  alt="CHATEAU-DU-TERTRE"></div>
+                                    <!-- /.swiper-slide -->
+                                    <div class="swiper-slide"><img src="img/src/newProducts/CHATEAU-MOUTON-ROTHSCHILD-2002.jpg"  alt="CHATEAU-MOUTON-ROTHSCHILD-2002"></div>
+                                    <!-- /.swiper-slide -->
+                                </div>
+                                <!-- /.swiper-wrapper -->
+                                <div class="swiper-button-next"></div>
+                                <!-- /.swiper-button-next -->
+                                <div class="swiper-button-prev"></div>
+                                <!-- /.swiper-button-prev -->
+                            </div>
+                            <!-- /.swiper-container -->
+                        </div>
+                        <!-- /.col-6 -->
+                        </div>
+                        <!-- /.newProducts_slider -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.newProducts -->
+
+        <section class="futureProducts">
+            <div class="container">
+                <h1 class="futureProductsTitle">Futured <span class="futureProductsColor">Products</span></h1>
+            <div class="futureProductsWines">
+                <ul class="futureProductsList">
+                    <a href="" class="futureProductsItems">
+                        <li class="futureProductsLi">All</li>
+                        <!-- /.futureProductsLi -->
+                    </a>
+                    <!-- /.futureProductsItems -->
+                    <a href="" class="futureProductsItems">
+                        <li class="futureProductsLi">Red</li>
+                        <!-- /.futureProductsLi -->
+                    </a>
+                    <!-- /.futureProductsItems -->
+                    <a href="" class="futureProductsItems">
+                        <li class="futureProductsLi">Rose</li>
+                        <!-- /.futureProductsLi -->
+                    </a>
+                    <!-- /.futureProductsItems -->
+                    <a href="" class="futureProductsItems">
+                        <li class="futureProductsLi lastLi">White</li>
+                        <!-- /.futureProductsLi -->
+                    </a>
+                    <!-- /.futureProductsItems -->
+                </ul>
+                <!-- /.futureProductsList -->
+            </div>
+            <!-- /.futureProductsWines -->
+            <div class="futureProductsRange">
+                <div class="futureProductsImg_1">
+                    <div class="futureProductsPics">
+                        <img class="futureProductsDiscount_1" src="img/src/futureProducts/SilverOak.png" alt="Silver Oak">
+                    </div>
+                    <div class="futureProductsName">
+                        <p>Silver Oak</p>
+                        <p class="futureProductsPrice"><span class="futureProductsOldPrice">$500.00 </span>$350.00</p>
+                    </div> 
+                </div>
+                <div class="futureProductsImg_2">
+                    <div class="futureProductsPics">
+                        <img class="futureProductsDiscount_2" src="img/src/futureProducts/AmonRa.png" alt="AmonRa">
+                    </div>
+                    <div class="futureProductsName">
+                        <p>Amon - Ra</p>
+                        <p class="futureProductsPrice"><span class="futureProductsOldPrice">$150.00 </span>$83.00</p>
+                    </div> 
+                </div>
+                <div class="futureProductsImg_3">
+                    <div class="futureProductsPics">
+                        <img class="futureProductsDiscount_3" src="img/src/futureProducts/RedHills.png" alt="RedHills">
+                    </div>
+                    <div class="futureProductsName">
+                        <p>Red Hills</p>
+                        <p class="futureProductsPrice"><span class="futureProductsOldPrice">$1000.00 </span>$800.00</p>
+                    </div> 
+                </div>
+                <div class="futureProductsImg_4">
+                    <div class="futureProductsPics">
+                        <img class="futureProductsDiscount_4" src="img/src/futureProducts/Tahoe.png" alt="Tahoe">
+                    </div>
+                    <div class="futureProductsName">
+                        <p>Tahoe</p>
+                        <p class="futureProductsPrice"><span class="futureProductsOldPrice">$120.00 </span>$78.00</p>
+                    </div> 
+                </div>
+                <div class="futureProductsImg_5">
+                    <div class="futureProductsPics">
+                        <img class="futureProductsDiscount_5" src="img/src/futureProducts/Cabernet.png" alt="Cabernet">
+                    </div>
+                    <div class="futureProductsName">
+                        <p>2008 Cabernet</p>
+                        <p class="futureProductsPrice"><span class="futureProductsOldPrice">$500.00 </span>$300.00</p>
+                    </div> 
+                </div>
+                <div class="futureProductsImg_6">
+                    <div class="futureProductsPics">
+                        <img class="futureProductsDiscount_6" src="img/src/futureProducts/Mazzei2016.png" alt="Mazzei2016">
+                    </div>
+                    <div class="futureProductsName">
+                        <p>Mazzei Siepi 2016</p>
+                        <p class="futureProductsPrice"><span class="futureProductsOldPrice">$300.00 </span>$280.00</p>
+                    </div> 
+                </div>
+                <div class="futureProductsImg_7">
+                    <div class="futureProductsPics">
+                        <img class="futureProductsDiscount_7" src="img/src/futureProducts/Penfolds.png" alt="Penfolds">
+                    </div>
+                    <div class="futureProductsName">
+                        <p>Penfolds uncorks</p>
+                        <p class="futureProductsPrice"><span class="futureProductsOldPrice">$400.00 </span>$280.00</p>
+                    </div> 
+                </div>
+                <div class="futureProductsImg_8">
+                    <div class="futureProductsPics">
+                        <img class="futureProductsDiscount_8" src="img/src/futureProducts/Jacobs2012.png" alt="Jacobs2012">
+                    </div>
+                    <div class="futureProductsName">
+                        <p>2012 Jacob's</p>
+                        <p class="futureProductsPrice"><span class="futureProductsOldPrice">$1000.00 </span>$950.00</p>
+                    </div> 
+                </div>
+            </div>
+            <a href="" class="aboutRead">READ MORE</a>
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.futureProducts -->
+
+        <section class="clientReview">
+            <h1 class="clientReviewTitle">Client <span class="clientReviewColor">Review</span></h1>
+            <div class="clientReview_slider">
+                <div class="clientReview_pic">
+                    <img class="clientReview_img"src="img/src/clientReview/photo_1.jpg" alt="David Luice">
+                    <h3 class="clientReview_name">David Luice</h3>
+                    <p class="clientReview_feedback">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatibus maxime! Voluptatum libero, molestias quod amet voluptatibus mollitia perspiciatis quas nisi, iure alias labore vitae earum magni excepturi ea adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatibus maxime! Voluptatum libero, molestias quod amet voluptatibus mollitia perspiciatis quas nisi, iure alias labore vitae earum magni excepturi ea adipisci?</p>
+                </div>
+                <div class="clientReview_pic">
+                    <img class="clientReview_img" src="img/src/clientReview/photo_1.jpg" alt="David Luice">
+                    <h3 class="clientReview_name">David Luice</h3>
+                    <p class="clientReview_feedback">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatibus maxime! Voluptatum libero, molestias quod amet voluptatibus mollitia perspiciatis quas nisi, iure alias labore vitae earum magni excepturi ea adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatibus maxime! Voluptatum libero, molestias quod amet voluptatibus mollitia perspiciatis quas nisi, iure alias labore vitae earum magni excepturi ea adipisci?</p>
+                </div>
+                <div class="clientReview_pic">
+                    <img class="clientReview_img" src="img/src/clientReview/photo_1.jpg" alt="David Luice">
+                    <h3 class="clientReview_name">David Luice</h3>
+                    <p class="clientReview_feedback">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatibus maxime! Voluptatum libero, molestias quod amet voluptatibus mollitia perspiciatis quas nisi, iure alias labore vitae earum magni excepturi ea adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatibus maxime! Voluptatum libero, molestias quod amet voluptatibus mollitia perspiciatis quas nisi, iure alias labore vitae earum magni excepturi ea adipisci?</p>
+                </div>
+                <div class="clientReview_pic">
+                    <img class="clientReview_img" src="img/src/clientReview/photo_1.jpg" alt="David Luice">
+                    <h3 class="clientReview_name">David Luice</h3>
+                    <p class="clientReview_feedback">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatibus maxime! Voluptatum libero, molestias quod amet voluptatibus mollitia perspiciatis quas nisi, iure alias labore vitae earum magni excepturi ea adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatibus maxime! Voluptatum libero, molestias quod amet voluptatibus mollitia perspiciatis quas nisi, iure alias labore vitae earum magni excepturi ea adipisci?</p>
+                </div>
+            </div>
+            <!-- /.clientReview_slider -->
+        </section>
+        <!-- /.clientReview -->
+
+        <section class="offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="offerTitle">Amazing<span class="offerColor"> offer</span></h1>
+                        <div class="offer_slider">
+                            <div class="offer_pic">
+                                <img class="offer_img" src="img/src/amazingoffer/foto_1.png" alt="">
+                                <p class="offer_wine_plant">pope valley winery</p>
+                                <p class="offer_price">$150.00</p>
+                            </div>
+                            <div class="offer_pic">
+                                <img class="offer_img" src="img/src/amazingoffer/foto_2.png" alt="">
+                                <p class="offer_wine_plant">pope valley winery</p>
+                                <p class="offer_price">$140.00</p>
+                            </div>
+                            <div class="offer_pic">
+                                <img class="offer_img" src="img/src/amazingoffer/foto_3.png" alt="">
+                                <p class="offer_wine_plant">pope valley winery</p>
+                                <p class="offer_price">$158.00</p>
+                            </div>
+                            <div class="offer_pic">
+                                <img class="offer_img" src="img/src/amazingoffer/foto_4.png" alt="">
+                                <p class="offer_wine_plant">pope valley winery</p>
+                                <p class="offer_price">$150.00</p>
+                            </div>
+                            <div class="offer_pic">
+                                <img class="offer_img" src="img/src/amazingoffer/foto_5.png" alt="">
+                                <p class="offer_wine_plant">pope valley winery</p>
+                                <p class="offer_price">$150.00</p>
+                            </div>
+                        </div>
+                        <!-- /.offer_slider -->
+                    </div>
+                    <!-- /.col-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.offer -->
+
+        <section class="featuredEvents">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="featuredEventsTitle">Featured<span class="featuredEventsColor"> Events</span></h1>
+                        <div class="featuredEvents_slider">
+                            <div class="featuredEvents_pic">
+                                <div class="featuredEvents_img">
+                                    <img src="img/src/featuredEvents/Foto_1.png" alt="">
+                                </div>
+                                <div class="featuredEvents_item">
+                                    <p class="featuredEvents_announce">Wine Paris</p>
+                                    <p class="featuredEvents_date">04-06 June</p>
+                                    <p class="featuredEvents_text">Выставка должна была состояться в феврале 2021 года, но ее перенесли на июнь. На ней будут представлены вина практически всех французских регионов, а также зарубежные вина. </p>
+                                    <a href="" class="featuredEvents_read">READ MORE</a>
+                                </div>
+                            </div>
+                            <div class="featuredEvents_pic">
+                                <div class="featuredEvents_img">
+                                    <img src="img/src/featuredEvents/Foto_2.png" alt="">
+                                </div>
+                                <div class="featuredEvents_item">
+                                    <p class="featuredEvents_announce">Vinitaly</p>
+                                    <p class="featuredEvents_date">23-24 June, Verona</p>
+                                    <p class="featuredEvents_text">Традиционную и самую известную выставку итальянских вин решили провести в офлайн-формате. Для этого во время выставки будут приняты усиленные меры безопасности.</p>
+                                    <a href="" class="featuredEvents_read">READ MORE</a>
+                                </div>
+                            </div>
+                            <div class="featuredEvents_pic">
+                                <div class="featuredEvents_img">
+                                    <img src="img/src/featuredEvents/Foto_3.png" alt="">
+                                </div>
+                                <div class="featuredEvents_item">
+                                    <p class="featuredEvents_announce">Le Salon des Vins de Loire</p>
+                                    <p class="featuredEvents_date">18-21 May, Angue</p>
+                                    <p class="featuredEvents_text">Салон вин долины Луары пройдет в Анже – главном городе исторической области Анжу и департамента Луары.</p>
+                                    <a href="" class="featuredEvents_read">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.featuredEvents -->
+
+        <section class="contactUs">
+            <div class="container">
+                <div class="row">
+                    <h1 class="contactUsTitle">Contact<span class="contactUsColor"> us</span></h1>
+                    <div class="col-lg-6">
+                        <div class="contactUs_info">
+                            <p class="contactUs_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nunc a in morbi. Ac, aenean iaculis purus turpis est sollicitudin blandit ut leo.Lorem ipsum dolor sit amet, consectetur </p>
+                            <a href="tel:+01232546987"><p class="contactUs_call">+012-3254-6987</p></a>
+                            <a href="mailto:Food&drink@gmail.com"><p class="contactUs_email">Food&drink@gmail.com</p></a>
+                            <p class="contactUs_address">Brahmanbaira, Dhaka, Bangladesh</p>
+                            <div class="contactUs_social">
+                                <a href="" class="contactUs_item"><img src="img/src/contactUs/google.png" alt="google" class="contactUs_pics"></a>
+                                <a href="" class="contactUs_item"><img src="img/src/contactUs/twitter.png" alt="twitter" class="contactUs_pics"></a>
+                                <a href="" class="contactUs_item"><img src="img/src/contactUs/linkedin.png" alt="linkedin" class="contactUs_pics"></a>
+                                <a href="" class="contactUs_item"><img src="img/src/contactUs/facebook.png" alt="facebook" class="contactUs_pics"></a>
+                            </div>
+                            <!-- /.contactUs_social -->
+                        </div>
+                        <!-- /.contactUs_info -->
+                    </div>
+                    <!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="contactUs_form">
+                            <form action="" method="" class="contactUs_send">
+                                <label for="contactUsName" class="contactUs_labelName">Name</label>
+                                <input id="contactUsName" type="text" class="contactUs_name" name="name" autocomplete="off">
+                                <label for="contactUsEmail" class="contactUs_labelEmail">Email</label>
+                                <input id="contactUsEmail" type="email" class="contactUs_emailF" name="email" autocomplete="off" value="examle@mail.com">
+                                <label for="contactUsPhone" class="contactUs_labelPhone">Phone</label>
+                                <input id="contactUsPhone" type="text" class="contactUs_phone" name="phone" autocomplete="off">
+                                <label for="contactUsMessage" class="contactUs_labelMessage">Message</label>
+                                <textarea id="contactUsMessage" class="contactUs_message" cols="70" rows="4"  name="message"></textarea>
+                                <button class="contactUsBtn" type="submit">Send</button> 
+                            </form>
+                            <!-- /.contactUs_send -->
+                        </div>
+                        <!-- /.contactUs_form -->
+                    </div>
+                    <!-- /.col-lg-6 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.contactUs -->
+
+        <section class="newsLetter">
+            <div class="container">
+                <h1 class="newsLetterTitle">newsletter</h1>
+                <p class="newsLetterSubtitle">Sign Up to our newsletter and  Save 40% on next Purchase</p>
+                <form action="" class="newsLetterSubscribe">
+                    <input type="email" class="newsLetter_email" autocomplete="off" value="Email">
+                    <input type="button" class="newsLetterBtn" value="Subscribe">
+                </form>
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.newsletter -->
+    </main>
+
+    <footer>
+        <section class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h3 class="infoCompany">Company</h3>
+                        <a class="infoLink" href=""><p class="infoCompany_link">About Us</p></a>
+                        <a class="infoLink" href=""><p class="infoCompany_link">Contact Us</p></a>
+                        <a class="infoLink" href=""><p class="infoCompany_link">Privacy Policy</p></a>
+                        <a class="infoLink" href=""><p class="infoCompany_link">Terms & Conditions</p></a>
+                        <a class="infoLink" href=""><p class="infoCompany_link">Support Center</p></a>
+                    </div>
+                    <!-- /.col-lg-3 -->
+                    <div class="col-lg-3">
+                        <h3 class="infoQuestion">question?</h3>
+                        <a class="infoLink" href=""><p class="infoQuestion_link">Help Support</p></a>
+                        <a class="infoLink" href=""><p class="infoQuestion_link">Track Order</p></a>
+                        <a class="infoLink" href=""><p class="infoQuestion_link">Return</p></a>
+                        <a class="infoLink" href=""><p class="infoQuestion_link">Shipping Info</p></a>
+                        <a class="infoLink" href=""><p class="infoQuestion_link">History</p></a>
+                    </div>
+                    <!-- /.col-lg-3 -->
+                    <div class="col-lg-3">
+                        <h3 class="infoUseful">useful links</h3>
+                        <a class="infoLink" href=""><p class="infoUseful_link">Gift Cards</p></a>
+                        <a class="infoLink" href=""><p class="infoUseful_link">Size Chart</p></a>
+                        <a class="infoLink" href=""><p class="infoUseful_link">My Account</p></a>
+                        <a class="infoLink" href=""><p class="infoUseful_link">Our Locations</p></a>
+                        <a class="infoLink" href=""><p class="infoUseful_link">FAQS</p></a>
+                    </div>
+                    <!-- /.col-lg-3 -->
+                    <div class="col-lg-3">
+                        <div class="infoWraper">
+                            <h3 class="infoConnect">connect with us</h3>
+                        <div class="infoConnect_social">
+                            <a href="" class="infoLink"><img src="img/src/infoFooter/google.png" alt="google"></a>
+                            <a href="" class="infoLink"><img src="img/src/infoFooter/twitter.png" alt="twitter"></a>
+                            <a href="" class="infoLink"><img src="img/src/infoFooter/linkedin.png" alt="linkedin"></a>
+                            <a href="" class="infoLink"><img src="img/src/infoFooter/facebook.png" alt="facebook"></a>
+                        </div>
+                        <a class="infoLink" href="tel:+01232546987"><p class="infoConnect_phone">+012-3254-6987</p></a>
+                        <a class="infoLink" href="mailto:Food&drink@gmail.com"><p class="infoConnect_email">Food&drink@gmail.com</p></a>
+                        <p class="infoConnect_address">Brahmanbaira, Dhaka, Bangladesh</p>
+                        </div>
+                        <!-- /.infowraper -->
+                    </div>
+                    <!-- /.col-lg-3 -->
+                    <div class="infoCopyright">
+                        <p class="infoTitle">Copyright 2020 wine&food All Rights Reserved (Designhunterrbd) </p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.info -->
+    </footer>
+    
+
     <script src="js/app.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/initSlider.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick/slick.js"></script>
+    <script src="js/initslick.js"></script>
+    <script src="jquery/jquery.maskedinput.min.js"></script>
+    <script src="jquery/maskedinput.js"></script>
 </body>
 </html>

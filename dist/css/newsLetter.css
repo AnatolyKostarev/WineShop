@@ -1,0 +1,70 @@
+.newsLetter {
+  padding: 57px 0 63px 0;
+  background: #18191a
+}
+.newsLetterTitle {
+  margin-bottom: 24px;
+  font-family: ChocolateBox;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #e2b024
+}
+.newsLetterSubtitle {
+  margin-bottom: 69px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #fff
+}
+.newsLetterSubscribe {
+  text-align: center
+}
+.newsLetter_email {
+  padding-left: 34px;
+  width: 444px;
+  height: 61px;
+  background: #000;
+  border: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left
+}
+.newsLetter_email:focus {
+  outline: 0
+}
+.newsLetterBtn {
+  width: 127px;
+  height: 60px;
+  background: #e2b024;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.newsLetterBtn:hover {
+  background: #d1a11c;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+.newsLetterBtn:focus {
+  background: #ba9019;
+  outline: 0
+}
